@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const WHATSAPP_URL =
-  "https://wa.me/919419196312?text=Hello%20North%20Singh%20Travels%2C%20I%20am%20interested%20in%20booking%20a%20tour%20package.%20Please%20share%20details%20regarding%20pricing%2C%20itinerary%2C%20hotels%2C%20transport%2C%20and%20availability.";
+  "https://wa.me/919419165312?text=Hello%20North%20Singh%20Travels%2C%20I%20am%20interested%20in%20booking%20a%20tour%20package.%20Please%20share%20details%20regarding%20pricing%2C%20itinerary%2C%20hotels%2C%20transport%2C%20and%20availability.";
 
 export default function Footer() {
   return (
@@ -46,7 +46,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="tel:+919419196312"
+                href="tel:+919419165312"
                 className="w-9 h-9 rounded-full bg-white/[0.06] hover:bg-gold flex items-center justify-center text-white/50 hover:text-midnight transition-all duration-300"
                 aria-label="Call us"
               >
@@ -86,7 +86,7 @@ export default function Footer() {
             <h4 className="text-xs font-body font-semibold text-white/40 uppercase tracking-[0.2em] mb-4">Contact</h4>
             <ul className="flex flex-col gap-3">
               {[
-                { label: "+91 9419196312", href: "tel:+919419196312" },
+                { label: "+91 9419165312", href: "tel:+919419165312" },
                 { label: "+91 9906036612", href: "tel:+919906036612" },
                 { label: "+91 9205065312", href: "tel:+919205065312" },
                 { label: "maharajatravelsraj@gmail.com", href: "mailto:maharajatravelsraj@gmail.com" },

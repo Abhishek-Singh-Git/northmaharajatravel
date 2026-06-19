@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "How do I book a tour or get pricing?",
-    a: "Simply WhatsApp us or call us directly. We provide customized quotes based on your group size, duration, accommodation preference, and specific requirements. Contact us at +91 9419196312 or +91 9906036612.",
+    a: "Simply WhatsApp us or call us directly. We provide customized quotes based on your group size, duration, accommodation preference, and specific requirements. Contact us at +91 9419165312 or +91 9906036612.",
   },
   {
     q: "Do you offer Helicopter service for Vaishno Devi?",

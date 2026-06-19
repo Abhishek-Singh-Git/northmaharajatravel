@@ -5,7 +5,7 @@ import FadeIn from "./FadeIn";
 import SectionHeading from "./SectionHeading";
 
 const WHATSAPP_URL =
-  "https://wa.me/919419196312?text=Hello%20North%20Singh%20Travels%2C%20I%20am%20interested%20in%20booking%20a%20tour%20package.%20Please%20share%20details%20regarding%20pricing%2C%20itinerary%2C%20hotels%2C%20transport%2C%20and%20availability.";
+  "https://wa.me/919419165312?text=Hello%20North%20Singh%20Travels%2C%20I%20am%20interested%20in%20booking%20a%20tour%20package.%20Please%20share%20details%20regarding%20pricing%2C%20itinerary%2C%20hotels%2C%20transport%2C%20and%20availability.";
 
 export default function Contact() {
   const [form, setForm] = useState({
@@ -29,7 +29,7 @@ export default function Contact() {
     const msg = encodeURIComponent(
       `Hello North Singh Travels,\n\nName: ${form.name}\nPhone: ${form.phone}\nEmail: ${form.email}\nDestination: ${form.destination}\nMessage: ${form.message}`
     );
-    window.open(`https://wa.me/919419196312?text=${msg}`, "_blank");
+    window.open(`https://wa.me/919419165312?text=${msg}`, "_blank");
     setSubmitted(true);
     setTimeout(() => setSubmitted(false), 4000);
   };
@@ -59,8 +59,8 @@ export default function Contact() {
                     </svg>
                   ),
                   label: "Phone Numbers",
-                  lines: ["+91 9419196312", "+91 9906036612", "+91 9205065312"],
-                  href: "tel:+919419196312",
+                  lines: ["+91 9419165312", "+91 9906036612", "+91 9205065312"],
+                  href: "tel:+919419165312",
                 },
                 {
                   icon: (
