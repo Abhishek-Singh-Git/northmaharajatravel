@@ -10,14 +10,14 @@ const packages = [
     duration: "3 Days / 2 Nights",
     destinations: "Katra, Vaishno Devi Bhawan",
     highlights: "Helicopter option, comfortable stay near Katra, dedicated guide assistance",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800&q=80",
+    image: "/vaishnodevi_darshan.png",
   },
   {
     title: "Vaishno Devi + Kashmir",
     duration: "7 Days / 6 Nights",
     destinations: "Katra, Srinagar, Gulmarg, Pahalgam",
     highlights: "Shikara ride, Gondola experience, Betaab Valley visit, temple darshan",
-    image: "https://images.unsplash.com/photo-1597074866923-dc0589150358?w=800&q=80",
+    image: "/vaishnodevi_kashmir.webp",
   },
   {
     title: "Vaishno Devi + Amritsar",

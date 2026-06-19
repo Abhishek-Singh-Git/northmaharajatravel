@@ -9,7 +9,7 @@ const destinations = [
     name: "Srinagar",
     tagline: "Venice of the East",
     description: "Houseboats on Dal Lake, Mughal Gardens, and vibrant floating markets",
-    image: "https://images.unsplash.com/photo-1597074866923-dc0589150358?w=800&q=80",
+    image: "/srinagar.png",
   },
   {
     name: "Gulmarg",
